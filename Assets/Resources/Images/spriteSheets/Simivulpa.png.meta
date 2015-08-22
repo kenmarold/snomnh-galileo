@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: d67a3ab60403c4eedb6c880731b7b10b
+timeCreated: 1439908254
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Simivulpa_0
+    21300002: Simivulpa_1
+    21300004: Simivulpa_2
+    21300006: Simivulpa_3
+    21300008: Simivulpa_4
+    21300010: Simivulpa_5
+    21300012: Simivulpa_6
+    21300014: Simivulpa_7
+    21300016: Simivulpa_8
+    21300018: Simivulpa_9
+    21300020: Simivulpa_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Simivulpa_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2790
+        width: 624
+        height: 595
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_1
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 2853
+        width: 477
+        height: 537
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_2
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 2761
+        width: 439
+        height: 619
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_3
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 2928
+        width: 488
+        height: 356
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_4
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2949
+        width: 221
+        height: 217
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_5
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2072
+        width: 403
+        height: 412
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_6
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1908
+        width: 569
+        height: 622
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_7
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1932
+        width: 349
+        height: 581
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_8
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2287
+        width: 212
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_9
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 2171
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Simivulpa_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 910
+        width: 1350
+        height: 791
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

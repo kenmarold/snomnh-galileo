@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 469ff6c60e2c247108cb8a118045b61d
+timeCreated: 1439865666
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tatus_0
+    21300002: Tatus_1
+    21300004: Tatus_2
+    21300006: Tatus_3
+    21300008: Tatus_4
+    21300010: Tatus_5
+    21300012: Tatus_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tatus_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1250
+        width: 496
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tatus_1
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1577
+        width: 162
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tatus_2
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1097
+        width: 933
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tatus_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1127
+        width: 162
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tatus_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 1397
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tatus_5
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 570
+        width: 322
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tatus_6
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 111
+        width: 342
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

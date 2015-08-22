@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 17b40d37f78274742ab98c17e5247858
+timeCreated: 1439904995
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Succorath_0
+    21300002: Succorath_1
+    21300004: Succorath_2
+    21300006: Succorath_3
+    21300008: Succorath_4
+    21300010: Succorath_5
+    21300012: Succorath_6
+    21300014: Succorath_7
+    21300016: Succorath_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Succorath_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2429
+        width: 759
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_1
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 2581
+        width: 327
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_2
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2662
+        width: 281
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_3
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 2662
+        width: 281
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_4
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 2665
+        width: 562
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1997
+        width: 391
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_6
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1219
+        width: 1562
+        height: 1229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 262
+        width: 831
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Succorath_8
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 86
+        width: 1711
+        height: 968
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
