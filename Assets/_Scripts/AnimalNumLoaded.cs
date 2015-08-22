@@ -3,13 +3,17 @@ using System.Collections;
 
 public class AnimalNumLoaded : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	public int animalLoaded;
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public void IncrementAnimalNumber()
+	{
+		GameObject gameController = GameObject.FindGameObjectWithTag("gc");
+		GameSetup gameSetup = GetComponent<GameSetup>();
+
+		gameSetup.arrayIndex = animalLoaded;
+
+		animalLoaded = animalLoaded++;
+
+		Debug.Log(animalLoaded);
 	}
 }

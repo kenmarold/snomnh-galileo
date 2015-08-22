@@ -47,7 +47,7 @@ public class GameSetup : MonoBehaviour
 
 	[HideInInspector] public int randomNumber;
 	[HideInInspector] public int indexNumber;
-	[HideInInspector] public int arrayIndex;
+	[HideInInspector] public int arrayIndex = 0; // When game initally loads for the day start with first animal in array
 	
 	// Code Wheel File Paths & Variables
 	public string filePrefix;
@@ -121,7 +121,13 @@ public class GameSetup : MonoBehaviour
 	void RestartGame()
 	{
 		Application.LoadLevel(Application.loadedLevel);
-		// Debug.Log("Game Restarted");
+		Debug.Log("Game Restarted");
+
+		GameObject animalLoaded = GameObject.FindGameObjectWithTag("AnimalLoaded");
+		DontDestroyOnLoad(animalLoaded);
+
+		AnimalNumLoaded animalNumLoaded = GetComponent<AnimalNumLoaded>();
+		animalNumLoaded.IncrementAnimalNumber();
 	}
 
 	// BUILD FILE SYSTEM
@@ -380,7 +386,6 @@ public class GameSetup : MonoBehaviour
 		// arrayIndex = Random.Range(0,animalTitles.Length);
 
 		// Always start at index number 0 to key all array content in to game 
-		arrayIndex = 0;
 
 		// Debug.Log("Current Animal Array Index is: " + arrayIndex);
 
