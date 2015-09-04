@@ -5,22 +5,23 @@ using UnityEngine.EventSystems;
 public class DeleteSymbol : MonoBehaviour, IPointerClickHandler
 {
 	public GameObject deleteButton;
-	GameObject charToDestroy;
+	public GameObject encodePanel;
+	public GameObject decodePanel;
+	// GameObject charToDestroy;
 
 	#region IPointerClickHandler implementation
 
 	public void OnPointerClick (PointerEventData eventData)
 	{
-		GameObject instSymScript = GameObject.Find("Game Controller");
-		InstantiateChar instSym = instSymScript.GetComponent<InstantiateChar>();
+		// get child count
+		int numChildren = encodePanel.transform.childCount;				
+		Debug.Log("There are " + numChildren + " children");
 
-		//GameObject instSym = GameObject.GetComponent<InstantiateSymbol>();
-		// charToDestroy = instSym.msgSymbols[instSym.msgSymbols.Count - 1];
-		// Destroy(charToDestroy);
-			
-	/*	instSym.msgSymbols.RemoveAt(instSym.msgSymbols.Count - 1);
-			
-		Debug.Log(instSym.msgSymbols.Count);*/
+		// check that children exist and then destroy last child
+		if (numChildren > 0)
+		{
+			Destroy(encodePanel.transform.GetChild(numChildren - 1).gameObject);		
+		}
 	}
 	#endregion
 }
