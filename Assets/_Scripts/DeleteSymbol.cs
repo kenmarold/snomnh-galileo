@@ -15,7 +15,7 @@ public class DeleteSymbol : MonoBehaviour, IPointerClickHandler
 	{
 		// get child count
 		int numChildren = encodePanel.transform.childCount;				
-		Debug.Log("There are " + numChildren + " children");
+		// Debug.Log("There are " + numChildren + " children");
 
 		// check that children exist and then destroy last child
 		if (numChildren > 0)

@@ -9,7 +9,8 @@ using UnityEngine.EventSystems;
 
 public class InstantiateChar : MonoBehaviour, IPointerClickHandler
 {
-	public string prefabPath;
+	// public string prefabPath;
+	public GameObject prefabObject;
 	List<GameObject> msgSymbols = new List<GameObject>();
 	GameObject currentChar;
 
@@ -28,7 +29,8 @@ public class InstantiateChar : MonoBehaviour, IPointerClickHandler
 		if (transform.CompareTag("AlphaKey"))
 		{
 			// Load a GameObject into the msgSymbols List and store the last character added in a variable (lastChar)
-			msgSymbols.Add((GameObject)Resources.Load(prefabPath));			
+			msgSymbols.Add(prefabObject);	
+			// msgSymbols.Add((GameObject)Resources.Load(prefabPath));			
 			currentChar = msgSymbols.Last<GameObject>();	
 
 		   	// Instantiate the last character (lastChar) added to msgSymbols List
@@ -44,7 +46,8 @@ public class InstantiateChar : MonoBehaviour, IPointerClickHandler
 		if (transform.CompareTag("SymbolKey"))
 		{
 			// Load a GameObject into the msgSymbols List nd store the last character added in a variable (lastChar)
-			msgSymbols.Add((GameObject)Resources.Load(prefabPath));			
+			msgSymbols.Add(prefabObject);	
+			// msgSymbols.Add((GameObject)Resources.Load(prefabPath));	
 			currentChar = msgSymbols.Last<GameObject>();	
 			
 			// Instantiate the last character (lastChar) added to msgSymbols List
