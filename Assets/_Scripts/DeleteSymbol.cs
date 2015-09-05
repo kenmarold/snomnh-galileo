@@ -14,13 +14,15 @@ public class DeleteSymbol : MonoBehaviour, IPointerClickHandler
 	public void OnPointerClick (PointerEventData eventData)
 	{
 		// get child count
-		int numChildren = encodePanel.transform.childCount;				
+		int encodeChildren = encodePanel.transform.childCount;	
+		int decodeChildren = encodePanel.transform.childCount;	
 		// Debug.Log("There are " + numChildren + " children");
 
 		// check that children exist and then destroy last child
-		if (numChildren > 0)
+		if (encodeChildren > 0)
 		{
-			Destroy(encodePanel.transform.GetChild(numChildren - 1).gameObject);		
+			Destroy(encodePanel.transform.GetChild(encodeChildren - 1).gameObject);
+			Destroy(decodePanel.transform.GetChild(decodeChildren - 1).gameObject);
 		}
 	}
 	#endregion
